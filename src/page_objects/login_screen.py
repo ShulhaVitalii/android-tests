@@ -9,13 +9,7 @@ from page_objects.feed_screen import PlayerScreen
 
 class LoginScreen(BaseScreen):
     """
-    Test users for prod
-    dismasdarkin1655363137@gmail.com
-    dismasdarkin1655363166@gmail.com
-    dismasdarkin1655363174@gmail.com
-    dismasdarkin1655363182@gmail.com
-    dismasdarkin1655363191@gmail.com
-    q12345q.
+
     """
     TITLE = (By.ID, 'com.litit.app:id/tvTitle')
     SIGN_UP_WITH_EMAIL = (By.ID, 'com.litit.app:id/btnEmail')
@@ -36,8 +30,8 @@ class LoginScreen(BaseScreen):
 
     GENDER = (By.ID, 'com.litit.app:id/root')
 
-    user_1_email = "dismasdarkin1655363137@gmail.com"
-    user_1_password = "q12345q."
+    user_1_email = ""
+    user_1_password = "."
     nickname = 'AutoUI'
     firstname = 'Auto'
     lastname = 'UI'
